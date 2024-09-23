@@ -38,6 +38,8 @@ touch backend/README.md
 
     pip install -r requirements.txt
 
+###For Backend
+
 4. Prepare the dataset:
 
     python3 scripts/prepare_dataset.py
@@ -50,16 +52,19 @@ touch backend/README.md
 
     uvicorn app.main:app --reload
 
-7. Project Details
+###For Frontend
+
+4. Run the FastAPI server:
+
+    uvicorn app.main:app --reload
+
+
+##Project Details
 
 - Dataset: ruslanmv/ai-medical-chatbot
 - Model: google/flan-t5-small
 - Frameworks: FastAPI, Gradio, Hugging Face Transformers
 - LoRA: Low-Rank Adaptation for efficient fine-tuning.
 
-8. Future Enhancements
-
-- Continuous model retraining
-- Scalability with Kubernetes
 
 ---
