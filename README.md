@@ -38,7 +38,7 @@ touch backend/README.md
 
     pip install -r requirements.txt
 
-###For Backend
+### For Backend
 
 4. Prepare the dataset:
 
@@ -52,14 +52,14 @@ touch backend/README.md
 
     uvicorn app.main:app --reload
 
-###For Frontend
+### For Frontend
 
 4. Run the FastAPI server:
 
     uvicorn app.main:app --reload
 
 
-##Project Details
+## Project Details
 
 - Dataset: ruslanmv/ai-medical-chatbot
 - Model: google/flan-t5-small
